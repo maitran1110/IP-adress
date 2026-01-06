@@ -3,6 +3,10 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
+
+
+//6.1.2026
+
 namespace IPTray
 {
     public partial class Form1 : Form
@@ -88,3 +92,4 @@ namespace IPTray
         }
     }
 }
+
