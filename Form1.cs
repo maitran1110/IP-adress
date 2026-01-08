@@ -2,6 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
+using WinFormsApp2;
 
 namespace IPTray
 {
@@ -18,6 +19,11 @@ namespace IPTray
             CreateTrayIcon();
             this.WindowState = FormWindowState.Minimized;
             this.ShowInTaskbar = false;
+        }
+
+        private void InitializeComponent()
+        {
+            new Form2();
         }
 
         private void CreateTrayIcon()
